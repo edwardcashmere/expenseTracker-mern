@@ -1,5 +1,5 @@
-# expenseTracker-mern
-# React-Node-Redux-Mongo Application
+# ExpenseTracker-mern
+# React-Node-Context-Mongo Application
 
 ## Expense Tracker
 This application is an **Expense tracker** for tracking Income vs Expense.Built with mern stack with context api for state management
