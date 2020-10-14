@@ -30,7 +30,7 @@ const getTransactions =async ()=>{
         
         
     } catch (error) {
-        dispatch({type:TRANSACTION_FAIL,payload:error.response.data})
+        dispatch({type:TRANSACTION_FAIL,payload:error.message})
         
     }
 }

@@ -9,9 +9,10 @@
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run client\" \"npm run server\"",
-    "prod": "npm run clientinstall && npm install && npm run build --prefix client && pm2 start server.js",
-    "trial":"npm run build --prefix client && pm2 start server.js",
-    "stop":"pm2 stop server.js"
+    "project-local": "npm install && npm run clientinstall && npm run dev",
+    "prod": "export NODE_ENV=production && npm run clientinstall && npm install && npm run build --prefix client && node server.js",
+    "prod2": "export NODE_ENV=production && npm run clientinstall && npm install && npm run build --prefix client && pm2 start server.js",
+    "stop": "pm2 stop server.js"
   },
   "author": "",
   "license": "ISC",
