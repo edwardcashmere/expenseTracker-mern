@@ -14,7 +14,7 @@ npm run project-local
 
 ```
 
-This script will install all the dependencies and run your development server.You can the register then login  and start using the application.
+This script will install all the dependencies and run your development server.Start using the application.
 
 
 
